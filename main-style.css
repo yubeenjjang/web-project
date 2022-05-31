@@ -1,54 +1,53 @@
 .mainbox {
     margin-right : auto;
     margin-left : auto;
-    margin-top : 5%;
-    padding-bottom : 10%;
+    margin-top : 3%;
+    padding-bottom : 3%;
     background-color : #D6EBFE;
 
 }
 
 h1 {
-    font-size : 40px;
+    font-size : 200%;
     text-align : center;
-    margin-top : 50px;
+    margin-top : 100px;
 }
 
 .my-char1 {
-height : 200px;
-width : 200px;
-margin-left: 450px;
-margin-bottom : 50px;
-border-radius : 50px;
+    height : 13%;
+    width : 13%;
+    display : flex;
+    justify-content : center;
+    border-radius : 50px;
 }
 
 .my-char2 {
-    height : 200px;
-    width : 200px;
-    margin-bottom : 50px;
+    height : 13%;
+    width :13%;
+    justify-content : center;
     border-radius : 50px;
  }
 
  .my-char3 {
-    height : 200px;
-     width : 200px;
-     margin-bottom : 50px;
+    height : 13%;
+     width : 13%;
+     justify-content : center;
      border-radius : 50px;
 }
 
 .button1 {
     font-weight : bold;
-    font-size : 20px;
+    font-size : 120%;
     color: black;
     border: 2px solid black;
     border-radius : 8px;
-    margin-left : 600px;
     text-decoration-line : none;
     background-color : white;
 }
 
 .button2 {
     font-weight : bold;
-    font-size : 20px;
+    font-size :  120%;
     color: black;
     border: 2px solid black;
     border-radius : 8px;
@@ -58,10 +57,14 @@ border-radius : 50px;
 
 .button3 {
     font-weight : bold;
-    font-size : 20px;
+    font-size : 120%;
     color: black;
     border: 2px solid black;
     border-radius : 8px;
+    margin-right : 40%;
     text-decoration-line : none;
     background-color : white;
 }
+ body {
+    justify-content : center;
+ }
