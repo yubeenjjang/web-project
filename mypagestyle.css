@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+
+* {
+    font-family: 'Gamja Flower', cursive;  /* 폰트설정 , *은 문서 전체적용 의미 */
+}
+
+body,h1,h2 {
+    margin : 0px;
+    padding : 0px;   /* 브라우저 별로 margin과 padding의 값이 다르기 때문에 초기화 설정 */
+}
+
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color : #0F3D49;
+    text-align : left;
+    border-bottom : 1px solid #92E5FA;
+    margin-bottom : 20px;
+    padding-bottom : 10px;
+}
+
+.my-p1 {
+   float : right;
+
+   
+}
+.my-img1 {
+    height : 190px;
+    width : 150px;
+}
+
+
+.my-p2 {
+    float : left;
+ 
+    
+ }
+ .my-img2 {
+     height : 190px;
+     width : 150px;
+ }
+
+.aboutme1 {
+    font-size: 25px;
+    color: #1b687c;
+    font-weight: bold;
+    padding-left : 100px;
+}
+
+.aboutme2 {
+    font-size: 25px;
+    color: #1b687c;
+    font-weight: bold;
+    padding-left : 100px;
+}
+.aboutme3 {
+    font-size: 25px;
+    color: #1b687c;
+    font-weight: bold;
+    padding-left : 100px;
+}
+.aboutme4 {
+    font-size: 25px;
+    color: #1b687c;
+    font-weight: bold;
+    padding-left : 100px;
+    border-bottom : 1px solid #92E5FA;
+    margin-bottom : 20px;
+    padding-bottom : 10px;
+}
+
+.like{
+    border : 1px solid #92E5FA;
+    font-size : 30px;
+    font-weight : bold;
+    text-align : center;
+    color: #1b687c;
+    padding-left : 20px;
+    padding-right : 30px;
+    margin-left : 30px;
+    float : left;
+}
+
+.like2{
+    padding-left: 20px;
+}
+div {
+    font-size : 25px;
+    color : #1b687c;
+    font-weight : lighter;
+    padding-bottom : 5px;
+    text-align : center;
+
+}
+
+.dislike {
+    border : 1px solid #92e5fa;
+    float : right;
+    text-align : center;
+    font-size : 30px;
+    font-weight : bold;
+    color: #1b687c;
+    padding-right : 20px;
+    padding-left : 20px;
+    margin-right : 30px;
+}
+
+.hobby{
+    border : 1px solid #92E5FA;
+    font-size : 30px;
+    font-weight : bold;
+    float : left;
+    color: #1b687c;
+    padding-left : 65px;
+    padding-right : 65px;
+    margin-left : 30px;
+    margin-top : 12px;
+}
+
+.SNS {
+    border : 1px solid #92e5fa;
+    font-size : 30px;
+    font-weight : bold;
+    color: #1b687c;
+    float : right;
+    padding-right : 15px;
+    padding-left : 10px;
+    margin-right : 30px;
+    margin-top : 15px;
+}
+
+
+
+.insta {  
+    float : right;
+}
+
+.insta-img {
+  
+    width :40px;
+    height : 40px;
+}
+
+
+.blog {  
+    float : right;
+}
+
+.blog-img {
+  
+    width : 50px;
+    height : 50px;
+}
+
+
+
+h2 {
+    font-size: 17px;
+    font-weight: normal;
+    color : #1B687C;
+    text-align : center;
+    border-bottom : 1px solid #92E5FA; /*아래에만 선 생김 */
+    margin-bottom : 20px;
+    padding-bottom : 10px;
+
+    
+}
+
+
+.mainbox {
+    border: 1px solid #15a4c9;
+    border-radius : 20px;
+    width: 620px;
+    height : 720px;
+    margin-right : auto;
+    margin-left : auto;
+    padding : 30px;
+    box-shadow : 0 1px 20px 0 #15a4c9;
+    margin-top: 20px;
+    
+
+}
+
+
+
+
+.title-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #282828;
+   float : left;
+}
+
+
+
+.float-wrap {
+    overflow: hidden; 
+} /* float 로 띄워진 요소들을 묶어주고 다음에 오는 html 요소가 float 영향 받지 않도록 해줌 */
+
+.ID {
+    text-align : left;
+}

@@ -1,0 +1,90 @@
+.mainbox {
+    margin : 100px 200px 50px 200px;
+    background-color : #D6EBFE;
+}
+
+.button1 {
+    font-weight : bold;
+    font-size : 15px;
+    color: black;
+    border: 2px solid black;
+    border-radius : 8px;
+    text-decoration-line : none;
+    position : absolute;
+    right : 355px;
+    top : 72px;
+}
+
+.button2 {
+    font-weight : bold;
+    font-size : 15px;
+    color: black;
+    border: 2px solid black;
+    border-radius : 8px;
+    text-decoration-line : none;
+    position : absolute;
+    right : 280px;
+    top : 72px;
+}
+
+
+.button3 {
+    font-weight : bold;
+    font-size : 15px;
+    color: black;
+    border: 2px solid black;
+    border-radius : 8px;
+    text-decoration-line : none;
+    position : absolute;
+    right : 220px;
+    top : 72px;
+}
+
+h1 {
+   text-align : center;
+    font-size : 40px;
+    padding-top : 10px;
+    
+}
+
+.my-face {
+    height : 250px;
+    width : 250px;
+    border-radius : 70px;
+    float : left; 
+    margin-left : 120px;
+}
+
+.infor1 {
+  font-size : 20px;
+    margin-left : 450px;
+    margin-top : 50px;
+   
+}
+
+.infor {
+    font-size : 20px;
+      margin-left : 450px;
+     
+  }
+
+  .insta {
+    height : 50px;
+    width : 50px;
+    margin-left : 500px;
+    margin-right : 3px;
+    margin-bottom : 2px;
+}
+
+
+.blog {
+  height : 50px;
+  width : 50px;
+  margin-bottom : 2px;
+}
+
+.number {
+    font-size : 15px;
+    color : #236299;
+    text-align : center;
+}
