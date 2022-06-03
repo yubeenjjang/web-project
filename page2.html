@@ -3,16 +3,28 @@
     <head>
         <title>favorite</title>
         <link rel = "stylesheet" href = "page2-style.css">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1">
         <script>
             window.onclick = function () {
                 var button = document.getElementById('button');
             }
           </script>
+            <style>
+                @media screen and (max-width : 767px) {
+                    body {
+                        width : auto;
+    
+                        }
+                    }
+            </style>
+            
     </head>
     <body>
+        <div class = "button">
         <a id = "button" class = "button1" href = "mainpage.html">HOME</a>
         <a id = "button" class = "button2" href = "page1.html">ABOUT ME</a>
         <a id = "button" class = "button3" href = "page3.html">TRAVEL</a>
+        </div>
     
         <div class = "mainbox">
             <h1>FAVORITE</h1>
@@ -20,14 +32,20 @@
             <img class = "chicken" src = "C:\Users\82109\OneDrive\바탕 화면\웹프\chicken.jpg">
             <img class = "marvel" src = "C:\Users\82109\OneDrive\바탕 화면\웹프\marvel.jpg">
             <p></p>
-            <span class = "infor" style = "padding-right : 100px; padding-left : 220px">DOG</span>
-            <span class = "infor" style = "padding-right : 100px; padding-left : 150px">CHICKEN</span>
-            <span class = "infor" style = "padding-right : 100px; padding-left : 120px">MOVIE</span>
+            <div class = "name">
+                <span class = "infor"  style = "padding-right : 13%; padding-left : 13% ">DOG</span>
+                <span class = "infor" style = "padding-right : 5%; padding-left : 5% ">CHICKEN</span>
+                <span class = "infor"style = "padding-right : 10%; padding-left : 10% ">MOVIE</span>
+            </div>
+            
             <img class = "sleep" src = "C:\Users\82109\OneDrive\바탕 화면\웹프\sleep.webp">
             <img class = "melon" src = "C:\Users\82109\OneDrive\바탕 화면\웹프\melon.png">
             <p></p>
-            <span class = "infor" style = "padding-right : 100px; padding-left : 370px; padding-bottom : 30px;">SLEEP</span>
-            <span class = "infor" style = "padding-right : 100px; padding-left : 140px">MUSIC</span>
+            <div class = "name">
+
+                <span class = "infor" style = "padding-right :20%;">SLEEP</span>
+                <span class = "infor">MUSIC</span>
+            </div>
         </div>
     </body>
 </html>

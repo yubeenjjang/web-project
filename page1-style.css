@@ -50,29 +50,23 @@ h1 {
 .my-face {
     height : 250px;
     width : 250px;
-    border-radius : 70px;
-    float : left; 
-    margin-left : 120px;
-}
-
-.infor1 {
-  font-size : 20px;
-    margin-left : 450px;
-    margin-top : 50px;
-   
+    padding-right : 8%;
+    padding-left : 4%;
+    display : flex;
+    justify-content : center;
+    float : left;
 }
 
 .infor {
-    font-size : 20px;
-      margin-left : 450px;
-     
-  }
+  font-size : 20px;
+   
+}
+
 
   .insta {
     height : 50px;
     width : 50px;
-    margin-left : 500px;
-    margin-right : 3px;
+    padding-right : 10px;
     margin-bottom : 2px;
 }
 
@@ -88,3 +82,13 @@ h1 {
     color : #236299;
     text-align : center;
 }
+.img{
+    display : flex;
+    justify-content : center;
+}
+
+
+
+body {
+    justify-content : center;
+ }
